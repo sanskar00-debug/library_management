@@ -1,7 +1,7 @@
 
 # Python Database Projects
 
-This collection includes three Python projects that demonstrate how to interact with an SQLite database. Each project features a modular design with a separate database setup script, an application logic class, and a command-line interface (CLI).
+This include a Python projects that demonstrate how to interact with an SQLite database. This project features a modular design with a separate database setup script, an application logic class, and a command-line interface (CLI).
 
 ## Projects Overview
 
@@ -20,7 +20,7 @@ python3 library_management/main.py
 
 ## Project Structure
 
-For each project, the structure is as follows:
+For this project, the structure is as follows:
 - `database_setup.py`: Initializes the SQLite database and creates the necessary tables.
 - `app.py`: Contains the core logic and database interaction methods.
 - `main.py`: Provides the command-line interface for the user.

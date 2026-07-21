@@ -1,15 +1,15 @@
 
-# Python Database Projects
+# Library Management System
 
 This include a Python projects that demonstrate how to interact with an SQLite database. This project features a modular design with a separate database setup script, an application logic class, and a command-line interface (CLI).
 
-## Projects Overview
+## Project Overview
 
 | Project | Description | Key Features |
 | :--- | :--- | :--- |
 | **Library Management System** | Manage books, members, and loans. | Add books/members, track book status, handle loans and returns. |
 
-## How to Run the Projects
+## How to Run the Project
 
 Each project is located in its own directory. To run a project, navigate to its directory and execute the `main.py` script.
 

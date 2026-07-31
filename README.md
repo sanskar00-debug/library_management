@@ -1,33 +1,40 @@
+# 📚 Library Management System
 
-# Library Management System
+A modular, command-line interface (CLI) Python application integrated with an SQLite database to manage book inventories, memberships, and transaction loans seamlessly.
 
-This include a Python projects that demonstrate how to interact with an SQLite database. This project features a modular design with a separate database setup script, an application logic class, and a command-line interface (CLI).
+---
 
-## Project Overview
+## 📊 Project Overview
 
 | Project | Description | Key Features |
 | :--- | :--- | :--- |
-| **Library Management System** | Manage books, members, and loans. | Add books/members, track book status, handle loans and returns. |
+| **Library Management System** | Manages books, members, and loans dynamically using a local relational database. | • Add/Track books & members<br>• Monitor book availability status<br>• Handle real-time loans and returns |
 
-## How to Run the Project
+---
 
-Each project is located in its own directory. To run a project, navigate to its directory and execute the `main.py` script.
+## 🛠️ Technologies Used
 
-### 1. Library Management System
+*   **Python 3.x** – Core programming language.
+*   **SQLite3** – Lightweight, serverless relational database engine.
+*   **Datetime** – Built-in Python module utilized for tracking precise loan and return deadlines.
+
+---
+
+## 📁 Project Structure
+
+The project follows a clean, modular design separating database setup, business logic, and user interaction:
+
+*   `database_setup.py` ── Initializes the SQLite database and establishes the relational table schemas.
+*   `app.py` ───────────── Contains core business logic and primary database interaction methods.
+*   `main.py` ──────────── Provides the command-line interface (CLI) text menus for user interaction.
+*   `*.db` ────────────── The local SQLite database binary file (automatically generated upon the first run).
+
+---
+
+## 🚀 How to Run the Project
+
+Each project module is contained within its own dedicated directory. To execute the CLI application, navigate to your root directory and run the main entry point:
+
 ```bash
 python3 library_management/main.py
 ```
-
-## Project Structure
-
-For this project, the structure is as follows:
-- `database_setup.py`: Initializes the SQLite database and creates the necessary tables.
-- `app.py`: Contains the core logic and database interaction methods.
-- `main.py`: Provides the command-line interface for the user.
-- `*.db`: The SQLite database file (generated upon first run).
-
-## Technologies Used
-- **Python 3**: The primary programming language.
-- **SQLite3**: A lightweight, disk-based database that doesn't require a separate server process.
-- **Datetime**: Python's built-in module for handling dates and times.
-

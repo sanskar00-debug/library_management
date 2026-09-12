@@ -2,6 +2,9 @@
 
 A modular, command-line interface (CLI) Python application integrated with an SQLite database to manage book inventories, memberships, and transaction loans seamlessly.
 
+![Python](https://img.shields.io/badge/Python-3.14.7-blue?style=for-the-badge&logo=Python)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+
 ---
 
 ## 📊 Project Overview
